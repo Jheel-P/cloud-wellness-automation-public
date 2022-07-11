@@ -1,0 +1,11 @@
+flask
+pandas
+gspread
+google-auth
+python-dotenv
+gspread-dataframe
+google-api-python-client
+google-cloud-monitoring
+google-cloud-bigquery
+bigquery_schema_generator
+google-cloud-datastore

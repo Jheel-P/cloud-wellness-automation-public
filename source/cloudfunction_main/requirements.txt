@@ -1,0 +1,4 @@
+google-cloud-pubsub
+google-cloud-datastore
+oauth2client
+pydrive

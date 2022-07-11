@@ -1,0 +1,5 @@
+curl -m 70 -X POST {CLOUDFUNCTION_URL} -H "Authorization:bearer $(gcloud auth print-identity-token)" -H "Content-Type:application/json" -d '{
+    "project_id": "{ASSESSED_PROJECT_ID}",
+    "parent_folder": "{GDRIVE_PARENT_FOLDER}",
+    "client": "{CLIENT_NAME}"
+}'
